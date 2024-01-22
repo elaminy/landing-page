@@ -1,24 +1,24 @@
 * {
     margin: 0;
     padding: 0;
-  
+
 }
 
-.body{
+.body {
     display: flex;
     flex-direction: column;
     margin: 0;
     padding: 0;
-}   
+}
 
 .header {
     background-color: #1F2937;
-    color: white; 
+    color: white;
     margin: 0;
     padding: 16px 128px;
     display: flex;
     justify-content: space-between;
-    
+
 }
 
 
@@ -26,21 +26,22 @@
 .title {
     margin: 32px;
 }
-ul{
+
+ul {
     display: flex;
     list-style-type: none;
     gap: 12px;
     margin: 8px;
-  
+
 }
 
-.box{
+.box {
     display: flex;
     flex-direction: row;
     gap: 24px;
 }
 
-.block{
+.block {
     display: flex;
     height: 128px;
     width: 128px;
@@ -49,29 +50,33 @@ ul{
     border-radius: 5px;
 }
 
-.page-one{
+.page-one {
     background-color: #1F2937;
     color: white;
-    padding: 128px 128px; 
+    padding: 128px 128px;
     display: flex;
     justify-content: space-between;
     gap: 32px;
 }
-.body-page-one{
+
+.body-page-one {
     display: flex;
     flex-direction: column;
 }
+
 .image-place {
     background-color: grey;
     height: 300px;
     width: 600px;
 }
-.left-heading{
+
+.left-heading {
     display: flex;
     flex-direction: column;
 
 }
-.page-two{
+
+.page-two {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -80,16 +85,16 @@ ul{
     padding-top: 16px;
 }
 
-.page-three{
+.page-three {
     background-color: #E5E7EB;
     padding: 64px 128px;
     display: flex;
 
     flex-direction: column;
-  
+
 }
 
-.page-four{
+.page-four {
     background-color: #3882F6;
     color: white;
     margin: 64px 128px;
@@ -100,7 +105,7 @@ ul{
     align-items: center;
 }
 
-.footer{
+.footer {
     background-color: #1F2937;
     color: white;
     padding-top: 32px;
@@ -110,16 +115,17 @@ ul{
     align-items: center;
 }
 
-.footer-body{
+.footer-body {
     color: #E5E7EB;
     font-size: 18px;
 }
 
-.footer-title{
+.footer-title {
     font-size: 24px;
 }
 
-.footer-button, .header-button{
+.footer-button,
+.header-button {
     background-color: #3882F6;
     border-radius: 5px;
     padding: 8px 32px;
@@ -127,7 +133,7 @@ ul{
     font-size: large;
 }
 
-.header-button{
+.header-button {
     border-color: #3882F6;
     width: fit-content;
     margin-top: 8px;
@@ -137,18 +143,17 @@ ul{
     border-color: white;
 }
 
-.subtext-page-three{
+.subtext-page-three {
     display: flex;
     justify-content: flex-end;
     color: #1F2937;
     font-weight: 900;
     font-size: 16px;
-  
+
 }
 
-.body-page-three{
+.body-page-three {
     font-size: 36px;
     color: grey;
     font-style: light-italic;
 }
- 
